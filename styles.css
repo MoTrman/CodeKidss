@@ -29,6 +29,32 @@ nav ul {
     display: flex;
     justify-content: center;
 }
+.courses {
+    text-align: center;
+}
+
+.course {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.course h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.course p {
+    color: #666;
+}
+
 
 nav ul li {
     margin: 0 20px;
