@@ -38,21 +38,28 @@ nav ul li a {
 }
 
 .hero {
-    background: url('background-image.jpg') no-repeat center center/cover;
+    position: relative;
     height: 400px;
-    color: #fff;
     text-align: center;
+    color: #fff;
     padding: 100px 0;
 }
 
-.hero h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
+.hero .background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
 }
 
-.hero p {
-    font-size: 24px;
+.hero h1, .hero p, .hero .btn {
+    position: relative;
+    z-index: 1;
 }
+
 
 .btn {
     display: inline-block;
